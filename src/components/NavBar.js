@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, NavLink, NavToggle } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
-export const Navbar = () => {
+export const Navbarz = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, seScrolled] = useState(false);
 
@@ -28,13 +28,13 @@ export const Navbar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <NavbarToggle aria-contorls="basic-navbar-nav"></NavbarToggle>
-          <NavbarCollapse id="basic-navbar-nav">
+          <Navbar.Toggle aria-contorls="basic-navbar-nav"></Navbar.Toggle>
+          <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <NavLink
                 href="#home"
                 className={
-                  activeLink === "home" ? "active navcbar-link" : "navbar-link "
+                  activeLink === "home" ? "active navbar-link" : "navbar-link "
                 }
                 onClick={() => onUUpdateActiveLink("home")}
               >
@@ -79,7 +79,7 @@ export const Navbar = () => {
                 <span>Let's Connect!</span>
               </button>
             </span>
-          </NavbarCollapse>
+          </Navbar.Collapse>
         </Navbar.Brand>
       </Container>
     </Navbar>
