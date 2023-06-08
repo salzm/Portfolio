@@ -55,7 +55,7 @@ export const Navbarz = () => {
                 href="#contactme"
                 className={
                   activeLink === "contactme"
-                    ? "active navcbar-link"
+                    ? "active navbar-link"
                     : "navbar-link "
                 }
                 onClick={() => onUUpdateActiveLink("contactme")}
@@ -76,7 +76,7 @@ export const Navbarz = () => {
                 </a>
               </div>
               <button className="vvd" onClick={() => console.log("connect")}>
-                <span>Let's Connect!</span>
+                {/* <span>Let's Connect!</span Do not need this at the moment> */}
               </button>
             </span>
           </Navbar.Collapse>

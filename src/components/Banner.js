@@ -51,9 +51,9 @@ export const Banner = () => {
             <span className="tagline">Welcome to my Portfolio!</span>
             <h1>
               {" "}
-              {`Hi I'm webcoded!`} <span className="wrap"> {text} </span>
+              {`Hi My name is Sal!`} <span className="wrap"> {text} </span>
             </h1>
-            <p> Test Test Test Test Test</p>
+            <p> Full Stack Web Developer</p>
             <button onClick={() => console.log("connect")}>
               Let's Connect! <ArrowRightCircle size={25}></ArrowRightCircle>
             </button>
