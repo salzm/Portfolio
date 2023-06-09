@@ -1,3 +1,18 @@
+# Portfolio Using React
+
+## Description
+
+This Project was to build a project Portfolio using React
+
+## Usage
+
+This was built using React App. This website / project is incomplete unfortunatly. The purpose of this project is to built a portfolio using React, and other npm packages to build this website. The website currently has a working navbar and I need to make it to where when the user clicks on a link or tab, it takes the user to the correct path. I also need to add the project cards and embeed the projects that link the user to my github repo.I will work on this and will add cards for my projects to be showcased, a footer for more infomration, and a button for the user to download my resume as a refrence for their use case.
+
+Source / Credits :
+
+Website URL!!
+https://pwa-text-editors.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
