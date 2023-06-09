@@ -10,8 +10,7 @@ This was built using React App. This website / project is incomplete unfortunatl
 
 Source / Credits :
 
-Website URL!!
-https://pwa-text-editors.herokuapp.com/
+![alt text](./src/assets/img/Portfolio.png)
 
 # Getting Started with Create React App
 
